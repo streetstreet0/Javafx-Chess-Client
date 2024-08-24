@@ -24,7 +24,9 @@ public class BoardPosition {
         }
         displaySquare = new VBox();
         displaySquare.setPrefWidth(squareSize);
+        displaySquare.setMinWidth(squareSize);
         displaySquare.setPrefHeight(squareSize);
+        displaySquare.setMinHeight(squareSize);
         displaySquare.setBackground(Background.fill(background));
 //        displaySquare.setX(xPosition * squareSize);
 //        displaySquare.setY(yPosition * squareSize);
