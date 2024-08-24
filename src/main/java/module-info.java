@@ -1,4 +1,4 @@
-module com.example.tryingjavafxagain {
+module com.example.javafxchessclient {
     requires javafx.controls;
     requires javafx.fxml;
     requires java.desktop;
